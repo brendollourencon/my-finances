@@ -39,8 +39,6 @@ pnpm infra:down     # para o MariaDB (mantém os dados)
 
 `dev`, `typecheck` e `test` passam a ter efeito quando `apps/*` e `packages/contracts` existirem (grupo 2 do plano); hoje rodam sem tarefas.
 
-Para entender o que cada arquivo faz, leia [`docs/monorepo-tooling.md`](docs/monorepo-tooling.md).
-
 ### Commits e hooks
 
 - **pre-commit:** `lint-staged` roda ESLint e Prettier nos arquivos em stage.
