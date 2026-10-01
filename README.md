@@ -43,7 +43,7 @@ pnpm infra:down     # para o MariaDB (mantém os dados)
 
 - **pre-commit:** `lint-staged` roda ESLint e Prettier nos arquivos em stage.
 - **commit-msg:** `commitlint` exige [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/) (ex.: `feat: cadastra ativo`).
-- **CI:** `.github/workflows/ci.yml` roda format, lint, typecheck, test e build (em PRs, só os workspaces afetados).
+- **CI:** `.github/workflows/ci.yml` (mantido apenas localmente; `.github/` não é versionado neste repositório) roda format, lint, typecheck, test e build (em PRs, só os workspaces afetados).
 - TypeScript está fixado em 6.0 porque `typescript-eslint` ainda não aceita 7.x.
 
 ## Ambiente local (Docker)

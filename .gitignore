@@ -17,3 +17,7 @@ coverage/
 # OS
 .DS_Store
 Thumbs.db
+
+# Ferramentas locais (não versionar)
+.claude/
+.github/
