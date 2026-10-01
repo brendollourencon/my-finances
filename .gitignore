@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.turbo/
+.nuxt/
+.output/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db

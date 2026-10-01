@@ -1,0 +1,10 @@
+node_modules
+dist
+.turbo
+.nuxt
+.output
+coverage
+pnpm-lock.yaml
+openspec
+.claude
+.idea
